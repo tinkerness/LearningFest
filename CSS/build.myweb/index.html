@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: dodgerblue;
+            margin: 20px;
+            font-weight: bold;
+            /* color: antiquewhite; */
+        }
+        #div1{
+            background-color: tomato;
+            height: 200px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .div2{
+            background-color: aquamarine;
+            color: tomato;
+            padding: 10px;
+            margin: 10px;
+        }
+        .sib{
+            background-color: yellowgreen;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Ctrl + d = selects same words -->
+
+    <!-- Alt = place cursor into multiple lines -->
+
+    <!-- lorem5 = generate 5 words -->
+    Lorem ipsum dolor sit amet.
+
+    <!-- ## Emmet documentation -- (>=child),(+=sib),(^=climb-up),... -->
+    <!-- div>div*3 = creates 3 child div within a parent div -->
+    <div id="div1">
+        <div class="div2">Lorem ipsum dolor sit amet.</div>
+        <div class="div2">Lorem ipsum dolor sit amet.</div>
+        <div class="div2">Lorem ipsum dolor sit amet.</div>
+    </div>
+
+    <!-- div+p*3 = creates 3 p tags which are siblings to div tag -->
+    <div class="sib">Lorem ipsum dolor sit amet.</div>
+    <p class="sib">Lorem ipsum dolor sit amet.</p>
+    <p class="sib">Lorem ipsum dolor sit amet.</p>
+    <p class="sib">Lorem ipsum dolor sit amet.</p>
+
+    <!-- css selectors = tagname{}, .class_name{}, #tag_name{} -->
+</body>
+</html>
