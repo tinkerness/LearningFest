@@ -1,0 +1,57 @@
+body{
+    background-color: dodgerblue;
+    margin: 20px;
+    font-weight: bold;
+    /* color: antiquewhite; */
+}
+#div1{
+    background-color: tomato;
+    height: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.div2{
+    background-color: aquamarine;
+    color: tomato;
+    padding: 10px;
+    margin: 10px;
+}
+.sib{
+    background-color: yellowgreen;
+    margin: 20px;
+}
+.parent{
+    height:300px;
+    background-color: thistle;
+    /* align horizontally - default*/
+    display: flex;
+    /* to change direction */
+    /* flex-direction: column; */
+    /* align along main axis */
+    justify-content: center;
+    /* align along cross axis */
+    /* align-items: center; */
+}
+.parent2{
+    margin-top: 20px;
+    background-color: mediumspringgreen;
+    flex-wrap: wrap;
+}
+.child{
+    margin: 10px;
+    height:50px;
+    width: 50px;
+    background-color: tomato;
+}
+.child.ch1{
+    background-color: crimson;
+    align-self: flex-end;
+}
+.child.ch2{
+    background-color: teal;
+    align-self: center;
+}
+.child.ch3{
+    background-color:firebrick;
+    align-self: flex-start;
+}
