@@ -1,0 +1,26 @@
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.todo_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todo_item{
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 50px;
+}
+.circle{
+    background-color: rgb(233, 233, 233);
+    border: 1px solid gray;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 20px;
+}
