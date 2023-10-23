@@ -1,8 +1,56 @@
-body{
+* {
     margin: 0;
     padding: 0;
 }
-nav{
+
+nav {
     background-color: black;
     height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > img {
+    height: 40px;
+    color: rgb(221, 166, 194);
+}
+.navlink > a {
+    color: rgb(221, 166, 194);
+    text-decoration: none;
+    background-color: rgb(206, 44, 133);
+    width: 60px;
+    padding: 8px 14px;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+main > img {
+    height: 300px;
+    border-radius: 100px;
+}
+main {
+    padding: 20px;
+    /* background-color: rgb(46, 0, 99); */
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main > .left > .head > h1 {
+    /* border: 1px solid black; */
+    margin-bottom: 4px;
+    font-size: 50px;
+}
+main > .left > .head > h1 > span {
+    color: rgb(206, 44, 133);
+}
+main > .left > .head > p {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    font-size: 25px;
+}
+main > .left > .soc_icons > img {
+    height: 40px;
+    padding-top: 10px;
+    padding: 5px;
 }
