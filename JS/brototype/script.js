@@ -1,41 +1,53 @@
 function show() {
-    console.log("button cliked")
+    console.log("button clicked")
+}
+
+function showvar() {
+    console.log("variable btn cliked")
+    // types: var, let, const
+
     var a = 1
     var b = 2
     var sum = a+b
     console.log("sum="+sum)
 
     // var can update values of variables
-    // let us initialise a variable only once
+    // let helps us to initialise a variable only once
     let c = 10
     console.log(c)
-    // modify
+    // but can modify
     c=4
     console.log(c)
 
     // const doesnt allow us to modify values
     const d = 5
     // d=6
+}
 
-    if (d%2==0) {
+function myloop() {
+    // if-else
+    var e = 5
+    if (e%2==0) {
         console.log("even number")
     }
     else {
         console.log("odd number")
     }
 
+    // for
     for (var i=0; i<10; i++) {
         console.log(5)
     }
     
-    var arr = ["apple","orange","mango",34]
-    console.log(arr)
-    console.log(arr[1])
 }
 
 function myarray() {    
     display()
     
+    var arr = ["apple","orange","mango",34]
+    console.log(arr)
+    console.log(arr[1])
+
     // key value pair
     var person = {
         name: "sonu",
@@ -60,5 +72,5 @@ function myarray() {
 }
 
 function display() {
-    document.writeln("Heyy !")
+    alert("Heyy !")
 }
