@@ -3,3 +3,4 @@
 Hosted site link: https://tinkerness.github.io/LearningFest/
 - HTML - [https://tinkerness.github.io/LearningFest/HTML/](https://tinkerness.github.io/LearningFest/HTML/)
 - CSS  - [https://tinkerness.github.io/LearningFest/CSS/](https://tinkerness.github.io/LearningFest/CSS/)
+- JS - [https://tinkerness.github.io/LearningFest/JS/](https://tinkerness.github.io/LearningFest/JS/)
