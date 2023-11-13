@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Validation</title>
+    <title>Form Validation Example</title>
+    <style>
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+    <script src="script.js"></script>
 </head>
+
 <body>
-    
+    <h1>Form Validation Example</h1>
+    <form id="myForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <span id="nameError" class="error"></span><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <span id="emailError" class="error"></span><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <span id="passwordError" class="error"></span><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
 </body>
+
 </html>
-<script src="script.js"></script>
