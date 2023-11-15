@@ -1,0 +1,229 @@
+:root {
+    --first-colour: rgb(206, 44, 133);
+    --second-colour: #dda6c2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > img {
+    height: 40px;
+    color: var(--second-colour);
+}
+
+.navlink > a {
+    color: var(--second-colour);
+    text-decoration: none;
+    background-color: var(--first-colour);
+    width: 60px;
+    padding: 8px 14px;
+    border-radius: 25px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.navlink :hover {
+    background-color: white;
+    color: var(--first-colour);
+}
+
+main > img {
+    height: 300px;
+    border-radius: 100px;
+}
+main {
+    padding: 20px;
+    /* background-color: rgb(214, 232, 236); */
+    /* background-color: #ddf5e9; */
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main > .left > .head > h1 {
+    /* border: 1px solid black; */
+    margin-bottom: 4px;
+    font-size: 50px;
+}
+main > .left > .head > h1 > span {
+    color: var(--first-colour);
+}
+main > .left > .head > p {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    font-size: 25px;
+}
+main > .left > .soc_icons > a, img {
+    height: 40px;
+    padding-top: 10px;
+    padding: 5px;
+}
+
+main > .left > .soc_icons a img:hover {
+    transform: scale(1.2);
+}
+
+.section-title, .section-sub-title {
+    position: relative;
+    color: var(--first-colour);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-sub-title {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.about__text {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    font-family:cursive;
+    /* background-color: #f5e1e7; */
+    /* background-color: #ddf5e9; */
+}
+
+.edu__text {
+    font-family:cursive;
+    text-align: center !important;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+.edu__text span {
+    color: var(--first-colour);
+    font-size: 18px;
+}
+
+.skills__text  {
+    font-family:cursive;
+    text-align: center !important;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px;
+    list-style:none;
+}
+.skills__text span {
+    color: var(--first-colour);
+    font-size: 18px;
+}
+
+#projects > .proj-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 20px;
+}
+.project-card {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+    width: 50vh;
+    height:70vh;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+.project-card img {
+    width: 97%;
+    height: 70%;
+}
+.project-details {
+    padding: 15px;
+    text-align: center;
+}
+.project-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.project-details p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.carousel-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carousel-slide {
+    display: none;
+}
+
+.carousel-slide > img{
+    height: 450px;
+}
+
+.contact-content > p, address {
+    padding: 5px;
+    text-align: center;
+}
+
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    background-color: var(--first-colour);
+    color: var(--second-colour);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
